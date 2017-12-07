@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="main_frame" prefHeight="320.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uninove.Tela01_Controller">
+    <children>
+        <Button fx:id="cmdsalvar" layoutX="96.0" layoutY="258.0" onAction="#clicarsalvar" text="Salvar" />
+      <Label fx:id="lblra" layoutX="49.0" layoutY="59.0" minHeight="16" minWidth="69" onDragDetected="#lblra" text="RA*" />
+      <TextField fx:id="txtra" layoutX="49.0" layoutY="84.0" onAction="#txtra" prefHeight="25.0" prefWidth="149.0" />
+      <Label fx:id="lblnome" layoutX="49.0" layoutY="121.0" onDragDetected="#lblnome" text="Nome*" />
+      <TextField fx:id="txtnome" layoutX="49.0" layoutY="146.0" onAction="#txtnome" prefHeight="25.0" prefWidth="356.0" />
+      <Label fx:id="lblcurso" layoutX="49.0" layoutY="189.0" onDragDetected="#lblcurso" text="Curso" />
+      <TextField fx:id="txtcurso" layoutX="49.0" layoutY="209.0" onAction="#txtcurso" prefHeight="25.0" prefWidth="356.0" />
+      <Label layoutX="149.0" layoutY="14.0" text="CADASTRO DE ALUNOS" textFill="#4a1717">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Button fx:id="cmdpesquisar" layoutX="310.0" layoutY="258.0" mnemonicParsing="false" onAction="#clicarpesquisar" text="Pesquisar" />
+      <Label fx:id="lblrodape" layoutX="269.0" layoutY="298.0" onDragDetected="#lblrodape" prefHeight="17.0" prefWidth="172.0" text="(*) Preenchimento Obrigatório" />
+        <Label fx:id="lblmsgbd" layoutX="287.0" layoutY="48.0" prefHeight="73.0" prefWidth="113.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="lblmsg" layoutX="287.0" layoutY="48.0" prefHeight="73.0" prefWidth="113.0" textAlignment="CENTER" wrapText="true" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="bd_frame" prefHeight="328.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uninove.Tela02_Controller">
+   <children>
+      <TableView fx:id="tvbd" editable="true" layoutX="10.0" layoutY="37.0" prefHeight="199.0" prefWidth="437.0">
+        <columns>
+          <TableColumn fx:id="tcra" editable="true" prefWidth="87.0" text="RA" />
+          <TableColumn fx:id="tcnome" editable="true" prefWidth="180.0" text="NOME" />
+          <TableColumn fx:id="tccurso" editable="true" minWidth="1.0" prefWidth="166.0" text="CURSO" />
+        </columns>
+      </TableView>
+      <Label layoutX="147.0" layoutY="10.0" text="ALUNOS CADASTRADOS" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Button fx:id="cmdalterar" layoutX="43.0" layoutY="265.0" mnemonicParsing="false" onAction="#clicaralterar" text="Alterar" />
+      <Button fx:id="cmdsair" layoutX="358.0" layoutY="265.0" mnemonicParsing="false" onAction="#clicarsair" text="Voltar" />
+      <Button fx:id="cmdapagar" layoutX="201.0" layoutY="265.0" mnemonicParsing="false" onAction="#clicarapagar" text="Apagar" />
+   </children>
+</AnchorPane>
