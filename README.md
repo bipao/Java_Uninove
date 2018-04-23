@@ -1,2 +1,2 @@
-# Java_Uninove
-Projeto que desenvolvi na linguagem Java / JavaFx pela Uninove nesse semestre, durante a aula de Introdução em Programação Orientada a Objetos
+# CRUD_Java
+CRUD(Create, Read, Update e Delete) desenvolvido na linguagem Java juntamente com JavaFx(Biblioteca gráfica da plataforma Java) durante a aula de Introdução em Programação Orientada a Objetos pela Uninove.
